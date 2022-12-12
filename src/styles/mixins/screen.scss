@@ -1,0 +1,96 @@
+// sm, small: 600px
+// md, medium: 900px
+// lg, large: 1200px
+// xl, extra-large: 1536px
+
+// xs: 0,
+// sm: 320,
+// md: 425,
+// lg: 1024,
+// xl: 1440,
+
+@mixin screen($size) {
+<<<<<<< HEAD
+  @if $size ==xs {
+    @media (max-width: 319px) {
+      @content;
+    }
+  }
+
+  @else if $size ==sm {
+    @media (min-width: 320px) and (max-width: 424px) {
+      @content;
+    }
+  }
+
+  @else if $size ==downSm {
+    @media (max-width: 424px) {
+      @content;
+    }
+  }
+
+  @else if $size ==md {
+    @media (min-width: 425px) and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @else if $size ==downMd {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @else if $size ==lg {
+    @media (min-width: 768px) and (max-width: 1199px) {
+      @content;
+    }
+  }
+
+  @else if $size ==downLg {
+    @media (max-width: 1199px) {
+      @content;
+    }
+  }
+
+  @else if $size ==xl {
+=======
+  @if $size == xs {
+    @media (max-width: 319px) {
+      @content;
+    }
+  } @else if $size == sm {
+    @media (min-width: 320px) and (max-width: 424px) {
+      @content;
+    }
+  } @else if $size == downSm {
+    @media (max-width: 424px) {
+      @content;
+    }
+  } @else if $size == md {
+    @media (min-width: 425px) and (max-width: 767px) {
+      @content;
+    }
+  } @else if $size == downMd {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (min-width: 768px) and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $size == downLg {
+    @media (max-width: 1199px) {
+      @content;
+    }
+  } @else if $size == xl {
+>>>>>>> e47d52aca41c1e0caefa999e482b773fd432ca0b
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> e47d52aca41c1e0caefa999e482b773fd432ca0b
