@@ -1,0 +1,50 @@
+{
+  "name": "augenopticosdotcom",
+  "private": true,
+  "scripts": {
+    "start:dev": "rm -rf .next/ && next dev",
+    "start:bk": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "start": "next start -H 0.0.0.0",
+    "build": "rm -rf .next/ && next build",
+    "lint": "next lint",
+    "prettier": "prettier --write \"*/**/*.ts\" \"*/**/*.json\" \"*/**/*.tsx\" \"*/**/*.scss\"",
+    "export": "npm run build && next export -o _static"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@emotion/cache": "~11.7.1",
+    "@emotion/react": "~11.7.1",
+    "@emotion/server": "~11.4.0",
+    "@emotion/styled": "~11.6.0",
+    "@mui/icons-material": "~5.2.5",
+    "@mui/material": "~5.2.5",
+    "@mui/styles": "5.2.3",
+    "aos": "^2.3.4",
+    "formik": "2.2.9",
+    "next": "^12.1.6",
+    "npm-check-updates": "^16.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "~7.2.6",
+    "react-toastify": "^9.0.5",
+    "redux-thunk": "~2.4.1",
+    "sass": "~1.45.1",
+    "sharp": "0.29.3",
+    "yup": "0.32.11"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/node": "17.0.2",
+    "@types/react": "17.0.37",
+    "@types/react-scroll": "1.8.3",
+    "dotenv": "14.2.0",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "prettier": "2.5.1",
+    "redux-devtools-extension": "~2.13.9",
+    "typescript": "4.5.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
