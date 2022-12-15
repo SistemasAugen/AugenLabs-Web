@@ -13,13 +13,15 @@ import polarizado from "@images/Material_Polarizado.png";
 import alto_indice from "@images/Material_Alto_Indice_1.56.png";
 import cr39 from "@images/Material_CR39.png";
 
+import AddIcon from '@mui/icons-material/Add';
+
 const Materiales = () => {
   const classes = useStyles();
   const locale = useRouter().locale!;
 
   return (
     <Grid container spacing={3}>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -37,7 +39,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -55,7 +57,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -73,7 +75,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -91,7 +93,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -109,7 +111,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -129,7 +131,7 @@ const Materiales = () => {
           </div>
         </Grid>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -147,7 +149,7 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
         <Grid display="flex" justifyContent="flex-end">
           <Image
             data-aos="fade-in"
@@ -165,12 +167,17 @@ const Materiales = () => {
           </Link>
         </div>
       </Grid>
-      <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
-
-        <Grid display="flex" justifyContent="flex-end">
-          <h1>+</h1>
+      <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <div className={[classes.centered, classes.highGraduations].join(" ")}>
+          <Grid display="flex" justifyContent="center">
+            <AddIcon
+              style={{ width: 60, height: 60 }}
+            >
+              +
+            </AddIcon>
+          </Grid>
           <h3>Altas graduciones</h3>
-        </Grid>
+        </div>
         <Typography className={[classes.paragraph, classes.centered].join(" ")} marginTop={12} data-os="fade-in" paragraph>
           {TRANSLATIONS[locale]["materials.section2.paragraph9"]}
         </Typography>

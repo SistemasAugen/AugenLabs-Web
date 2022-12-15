@@ -105,6 +105,10 @@ const useStyles = makeStyles((theme: Theme) => ({
   centered: {
     textAlign: "center"
   },
+  highGraduations: {
+    marginTop: "20vh"
+  }
+
 }));
 
 export default useStyles;

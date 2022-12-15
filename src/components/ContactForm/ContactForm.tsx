@@ -82,7 +82,7 @@ const ContactForm = ({ setIsOpen }: { setIsOpen: any }) => {
       <Grid container className={[classes.mainHeader, classes.padding].join(" ")}>
         <div className={classes.icon_right}>
           <DeleteIcon
-            style={{ padding: 8 }}
+            style={{}}
             onClick={() => setIsOpen(false)}
           >
             X
