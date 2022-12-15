@@ -24,7 +24,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     marginBottom: "16px",
   },
   paragraph: {
-    fontSize: "20px",
+    paddingLeft: "7vh",
+    paddingRight: "7vh",
+    fontSize: "18px",
     fontWeight: "100",
     marginBottom: "20px",
   },
@@ -58,6 +60,50 @@ const useStyles = makeStyles((theme: Theme) => ({
     [theme.breakpoints.down("md")]: {
       paddingLeft: 0,
     },
+  },
+  box: {
+    borderRadius: "1px",
+    boxShadow: "1px 0px 0px 0px rgba(0,0,0,0.2)",
+  },
+  underlineButtom: {
+    display: "grid",
+    textAlign: "center",
+    fontSize: "18px",
+    '&:before': {
+      backgroundColor: "black"
+    }
+
+  },
+  link: {
+    display: "inline-block",
+    textTransform: "uppercase",
+    textAlign: "center",
+    color: "black",
+    fontSize: 15,
+    padding: "0px 14px",
+    cursor: "pointer",
+    position: "relative",
+    textDecoration: "none",
+    // animation
+    '&:before': {
+      content: "''",
+      position: 'absolute',
+      width: '0',
+      height: '2px',
+      bottom: '-3px',
+      left: '50%',
+      transform: 'translate(-50%,0%)',
+      backgroundColor: 'black',
+      visibility: 'hidden',
+      transition: 'all 0.3s ease-in-out',
+    },
+    '&:hover:before': {
+      visibility: 'visible',
+      width: '100%',
+    },
+  },
+  centered: {
+    textAlign: "center"
   },
 }));
 

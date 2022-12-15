@@ -1,14 +1,14 @@
-import { memo } from "react";
 import Image from "next/image";
-import { Typography, Grid, Box } from "@mui/material";
+import { Typography, Grid, Link, Box } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./AboutAugen.styles";
-import process_glass from "@images/Lentes_Procesadas.jpg";
+import useStyles from "./NuestrosMateriales.styles";
 import useGlobalStyles from "@styles/globals";
 
-const AboutAugen = () => {
+import materials_home from "@images/Home_Materiales.jpg";
+
+const Materiales = () => {
   const classes = useStyles();
   const globalClasses = useGlobalStyles();
   const locale = useRouter().locale!;
@@ -16,7 +16,7 @@ const AboutAugen = () => {
   return (
     <>
       <Grid container marginBottom={8} marginTop={4}>
-        <Grid item md={6} className={classes.first_section_left_container}>
+        <Grid item md={6} className={[classes.first_section_left_container, classes.center].join(" ")}>
           <Box className={classes.first_section_title_container}>
             <Typography
               variant="h1"
@@ -24,16 +24,10 @@ const AboutAugen = () => {
               className={classes.light_font}
               data-aos="fade-left"
             >
-              {TRANSLATIONS[locale]["home.hero.text"]}
+              {TRANSLATIONS[locale]["home.materials.title"]}
             </Typography>
             <Typography marginTop={4} data-aos="fade-in" paragraph className={globalClasses.paragraph}>
-              {TRANSLATIONS[locale]["home.about-augen.paragraph1"]}
-            </Typography>
-            <Typography marginTop={4} data-aos="fade-in" paragraph className={globalClasses.paragraph}>
-              {TRANSLATIONS[locale]["home.about-augen.paragraph2"]}
-            </Typography>
-            <Typography marginTop={4} data-aos="fade-in" paragraph className={globalClasses.paragraph}>
-              {TRANSLATIONS[locale]["home.about-augen.paragraph3"]}
+              {TRANSLATIONS[locale]["home.materials.paragraph1"]}
             </Typography>
           </Box>
         </Grid>
@@ -42,7 +36,7 @@ const AboutAugen = () => {
             objectFit="cover"
             objectPosition="center"
             data-aos="fade-in"
-            src={process_glass}
+            src={materials_home}
             alt="augen's process glass finished"
           />
         </Grid>
@@ -51,4 +45,4 @@ const AboutAugen = () => {
   );
 };
 
-export default memo(AboutAugen);
+export default Materiales;

@@ -22,7 +22,7 @@ const Footer = () => {
   const locale = useRouter().locale!;
   const augenLinks: ILink[] = [
     {
-      text: TRANSLATIONS[locale]["header.link.optics_manufacturing"],
+      text: TRANSLATIONS[locale]["header.link.materials"],
       href: process.env.NEXT_PUBLIC_OPTICAL_MANUFACTURING_PAGE as string,
     },
     {
@@ -111,7 +111,7 @@ const Footer = () => {
                   </Typography>
                 </a>
               </Button>
-              {isOpen && <ContactForm setIsOpen={setIsOpen} /> }
+              {isOpen && <ContactForm setIsOpen={setIsOpen} />}
             </Box>
           </Grid>
         </Grid>

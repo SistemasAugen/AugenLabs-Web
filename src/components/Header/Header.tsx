@@ -35,8 +35,8 @@ const Header = (props: IProps) => {
   const [openMenuDialog, setOpenMenuDialog] = useState(false);
   const menuDialogLinks = [
     {
-      text: TRANSLATIONS[locale]["header.link.optics_manufacturing"],
-      href: "/optics",
+      text: TRANSLATIONS[locale]["header.link.materials"],
+      href: "/materials",
     },
     {
       text: TRANSLATIONS[locale]["header.link.optics_lab"],
@@ -216,9 +216,9 @@ const Header = (props: IProps) => {
 
           <Hidden mdDown>
             <div className={classes.links_section}>
-              <Link href="/optics">
+              <Link href="/materials">
                 <a className={[classes.link, classes.optics].join(" ")}>
-                  {TRANSLATIONS[locale]["header.link.optics_manufacturing"]}
+                  {TRANSLATIONS[locale]["header.link.materials"]}
                 </a>
               </Link>
               <Link href="/labs">

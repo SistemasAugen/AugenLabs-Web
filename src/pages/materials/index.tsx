@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import TRANSLATIONS from "@constants/locales";
 import { Layout, SocialBanner } from "@components";
 import { ISocialLink } from "@components/SocialBanner/SocialBanner";
-import { LentesOftalmicas, LentesParaNinos } from "@modules/optics";
+import { Materiales, NuestrosMateriales } from "@modules/materials";
 import useStyles from "./index.styles";
 import mainHeroImage from "@images/Opticos_1.png";
 import opticosImage from "@images/Opticos_2.png";
@@ -38,39 +38,18 @@ const AugenOpticos: NextPage = () => {
   })();
 
   return (
-    <Layout headerTitle={TRANSLATIONS[locale]["optics.title"]}>
-      <Box className={classes.hero_container}>
-        <Image
-          src={mainHeroImage}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt={TRANSLATIONS[locale]["optics.hero1_image_alt"]}
-          className={classes.first_hero_image}
-        />
-      </Box>
-
-      <Box className={classes.hero_2nd_container}>
-        <Image
-          src={opticosImage}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt={TRANSLATIONS[locale]["optics.hero2_image_alt"]}
-        />
-      </Box>
-
+    <Layout>
       <Container maxWidth="lg">
-        <LentesOftalmicas />
-        <LentesParaNinos />
-        <SocialBanner
+        <NuestrosMateriales />
+        <Materiales />
+        {/* <SocialBanner
           socialLinks={socialLinks}
           themeColor="red"
           websiteUrl={
             process.env.NEXT_PUBLIC_OPTICAL_MANUFACTURING_PAGE as string
           }
           website=""
-        />
+        /> */}
       </Container>
     </Layout>
   );

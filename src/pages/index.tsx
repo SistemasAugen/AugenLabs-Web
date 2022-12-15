@@ -16,7 +16,7 @@ import homeLab from "@images/Home_Lab.jpg";
 
 // Aos : library to animate with scroll on viewpoint
 import "aos/dist/aos.css"
-import ScrollAnimations from "aos"; // aos
+import ScrollAnimations from "aos";
 import { useEffect } from "react";
 
 // toast
@@ -44,7 +44,6 @@ const Home: NextPage = () => {
       <Container maxWidth="lg" className={classes.content}>
         <ToastContainer />
         <AboutAugen />
-        {/* <LabsNationalNetwork /> */}
       </Container>
       <div className={classes.hero_container_2}>
         <Image
@@ -56,6 +55,9 @@ const Home: NextPage = () => {
         />
       </div>
       <AugenLabs />
+      {/* <Container maxWidth="lg" className={classes.content}>
+        <LabsNationalNetwork />
+      </Container> */}
     </Layout >
   );
 };
