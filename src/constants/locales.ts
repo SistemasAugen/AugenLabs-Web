@@ -2,7 +2,17 @@ const locales: Record<string, Record<string, string>> = {
   es: {
 
     "header.logo_alt": "Logo de Augen Opticos",
-    "header.link.materials": "materiales",
+    "header.link.materials": "Materiales",
+    "header.link.materials_list": "lista de materiales",
+    "header.link.materials.parasol": "parasol",
+    "header.link.materials.trivex": "trivex",
+    "header.link.materials.trivex_bblock": "trivex b/block",
+    "header.link.materials.trivex_parasol": "trivex parasol",
+    "header.link.materials.trivex_160": "trivex 1 60",
+    "header.link.materials.polarized": "polarizado",
+    "header.link.materials.high_index": "alto indice 1.56",
+    "header.link.materials.cr39": "cr39",
+    "header.link.materials.high_graduations": "altas graduaciones",
     "header.link.optics_lab": "augen labs",
     "header.link.line_production": "linea de produccion",
     "header.link.augen_tec_video": "augen tec - video labone",
