@@ -8,6 +8,9 @@ import {
   Button,
   Dialog,
   Typography,
+  Menu,
+  MenuItem,
+  Fade
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -22,6 +25,7 @@ import mexicanFlagImage from "@images/Mexico_Flag.png";
 import ukFlagImage from "@images/UK_Flag.png";
 import ptFlagImage from "@images/Brazil_Flag.png";
 import useStyles from "./Header.styles";
+import MenuButton from "./MenuButton";
 
 interface IProps {
   small?: boolean;
@@ -33,6 +37,27 @@ const Header = (props: IProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const { locale, route }: any = useRouter();
   const [openMenuDialog, setOpenMenuDialog] = useState(false);
+  // menu dropdown
+  const [openMenu, setOpenMenu] = useState(false);
+  const open = Boolean(openMenu);
+  const menu = [
+    {
+      name: TRANSLATIONS[locale]["header.link.materials"],
+      menuItems: [
+        {
+          name: TRANSLATIONS[locale]["header.link.materials_list"],
+          onClick: () => { },
+          href: "/materials",
+        },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.parasol"],
+          onClick: () => { },
+          href: "/labs",
+        },
+      ]
+    }
+  ];
+
   const menuDialogLinks = [
     {
       text: TRANSLATIONS[locale]["header.link.materials"],
@@ -93,7 +118,6 @@ const Header = (props: IProps) => {
               />
             </a>
           </Link>
-
           <Hidden mdUp>
             <Button
               variant="text"
@@ -102,7 +126,6 @@ const Header = (props: IProps) => {
             >
               <MenuIcon fontSize="large" />
             </Button>
-
             <Dialog
               fullScreen
               open={openMenuDialog}
@@ -213,14 +236,11 @@ const Header = (props: IProps) => {
               </Box>
             </Dialog>
           </Hidden>
-
           <Hidden mdDown>
             <div className={classes.links_section}>
-              <Link href="/materials">
-                <a className={[classes.link, classes.optics].join(" ")}>
-                  {TRANSLATIONS[locale]["header.link.materials"]}
-                </a>
-              </Link>
+              {menu.map((item, index) =>
+                <MenuButton key={index} menu={item} />
+              )}
               <Link href="/labs">
                 <a className={[classes.link, classes.labs].join(" ")}>
                   {TRANSLATIONS[locale]["header.link.optics_lab"]}
