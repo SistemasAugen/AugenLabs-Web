@@ -32,7 +32,7 @@ const Materiales = () => {
           {TRANSLATIONS[locale]["materials.section2.paragraph1"]}
         </Typography>
         <div className={classes.underlineButtom}>
-          <Link>
+          <Link href="/materials/parasol">
             <u className={[classes.link, classes.underlineButtom].join(" ")}>
               {TRANSLATIONS[locale]["materials.buttom"]}
             </u>
