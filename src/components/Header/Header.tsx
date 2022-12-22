@@ -52,7 +52,7 @@ const Header = (props: IProps) => {
         {
           name: TRANSLATIONS[locale]["header.link.materials.parasol"],
           onClick: () => { },
-          href: "/labs",
+          href: "/materials/parasol",
         },
       ]
     }
@@ -304,7 +304,6 @@ const Header = (props: IProps) => {
           </Hidden>
         </Container>
       </Box>
-
       {title && (
         <Box
           sx={{
