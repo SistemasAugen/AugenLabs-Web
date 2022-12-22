@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Menu, MenuItem } from '@mui/material';
+
 import Link from "next/link";
 
 const MenuButton = ({ menu }: { menu: any }) => {
@@ -22,19 +23,24 @@ const MenuButton = ({ menu }: { menu: any }) => {
         {menu.name}
       </Button>
       <Menu
+        keepMounted
+        style={{ marginTop: "4rem", marginLeft: "2rem" }}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        transformOrigin={{ vertical: "top", horizontal: "center" }}
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
         {menu.menuItems.map((item: any) => (
-          <>
+          [
             <MenuItem onClick={item.onClick} href={item.href}>
               <Link href={item.href}>
                 <a>{item.name}</a>
               </Link>
             </MenuItem>
-          </>
+          ]
         ))}
       </Menu>
+
     </>
   )
 }
