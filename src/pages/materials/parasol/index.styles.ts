@@ -3,6 +3,9 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {},
+  parasol_background: {
+    backgroundColor: "#ee6b25",
+  },
 }));
 
 export default useStyles;
