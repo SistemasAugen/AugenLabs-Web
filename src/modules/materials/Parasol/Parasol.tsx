@@ -51,7 +51,7 @@ const Parasol = () => {
           <Typography marginTop={4} data-aos="fade-in" paragraph className={[globalClasses.paragraph, classes.font_color].join(" ")}>
             {TRANSLATIONS[locale]["materials.parasol.section1.paragraph3"]}
           </Typography>
-          <Typography marginTop={4} data-aos="fade-in" paragraph className={[globalClasses.paragraph, classes.font_color].join(" ")}>
+          <Typography style={{ fontWeight: 'bold' }} marginTop={4} data-aos="fade-in" paragraph className={[globalClasses.paragraph, classes.font_color].join(" ")}>
             {TRANSLATIONS[locale]["materials.parasol.section1.paragraph4"]}
           </Typography>
         </Box>
