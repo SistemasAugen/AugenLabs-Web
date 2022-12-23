@@ -7,10 +7,7 @@ import {
   Box,
   Button,
   Dialog,
-  Typography,
-  Menu,
-  MenuItem,
-  Fade
+  Typography
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -54,15 +51,16 @@ const Header = (props: IProps) => {
           onClick: () => { },
           href: "/materials/parasol",
         },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.trivex"],
+          onClick: () => { },
+          href: "/materials/trivex",
+        },
       ]
     }
   ];
 
   const menuDialogLinks = [
-    {
-      text: TRANSLATIONS[locale]["header.link.materials"],
-      href: "/materials",
-    },
     {
       text: TRANSLATIONS[locale]["header.link.optics_lab"],
       href: "/labs",

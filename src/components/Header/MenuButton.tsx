@@ -11,7 +11,7 @@ const MenuButton = ({ menu }: { menu: any }) => {
 
   const handleClose = () => {
     setAnchorEl(false);
-  }
+  };
 
   return (
     <>
@@ -40,10 +40,9 @@ const MenuButton = ({ menu }: { menu: any }) => {
           ]
         ))}
       </Menu>
-
     </>
-  )
-}
+  );
+};
 
 MenuButton.propTypes = {}
 
