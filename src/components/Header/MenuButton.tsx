@@ -32,7 +32,7 @@ const MenuButton = ({ menu }: { menu: any }) => {
       >
         {menu.menuItems.map((item: any) => (
           [
-            <MenuItem onClick={item.onClick} href={item.href}>
+            <MenuItem key={item} onClick={item.onClick} href={item.href}>
               <Link href={item.href}>
                 <a>{item.name}</a>
               </Link>

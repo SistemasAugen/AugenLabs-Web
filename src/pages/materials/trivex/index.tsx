@@ -6,8 +6,9 @@ import Trivex from '@modules/materials/Trivex/Trivex';
 import Reescribiendo from '@modules/materials/Trivex/Reescribiendo/Reescribiendo';
 
 import useStyles from './index.styles';
+import { NextPage } from 'next';
 
-const trivex = () => {
+const Trivex_Material: NextPage = () => {
   const classes = useStyles();
 
   return (
@@ -19,9 +20,8 @@ const trivex = () => {
         <Reescribiendo />
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-trivex.propTypes = {}
 
-export default trivex
+export default Trivex_Material

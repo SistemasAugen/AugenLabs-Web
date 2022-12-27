@@ -98,6 +98,17 @@ const locales: Record<string, Record<string, string>> = {
     "materials.trivex.section2.subtopic3": "No existe lente más liviana",
     "materials.trivex.section2.paragraph3": "Olvídate de los lentes que se deslizan por el puente de tu nariz. Trivex es el material más liviano de la industria, proporcionándote comodidad ante las exigencias diarias.",
 
+    "materials.bblock.section1.title": "La insuperable solución al problema de la luz azul.",
+    "materials.bblock.section1.paragraph1": "La lente ideal para dispositivos digitales.",
+    "materials.bblock.section1.paragraph2": "La led azul-blanca emitida por los dispositivos digitales interrumpe el reloj biológico y causa fatiga visual, impactando negativamente las horas de sueño, la salud y la productividad de los pacientes.",
+    "materials.bblock.section2.title": "¿Cómo te beneficias con esta nueva tecnología?",
+    "materials.bblock.section2.subtitle1": "El material óptico más resistente del planeta.",
+    "materials.bblock.section2.paragraph1": "Trivex B/Block te ofrece una insuperable combinación de seguridad, confort, apariencia y rendimiento óptico del mercado.",
+    "materials.bblock.section2.subtitle2": "Mayor protección contra la luz azul.",
+    "materials.bblock.section2.paragraph2": "Trivex B-Block te protege de manera total de la luz azul intensa y de los rayos U.V., resguardando tus ojos y reduciendo la fatiga visual, incrementando tu rendimiento profesional.",
+    "materials.bblock.section2.subtitle3": "El problema de la luz azul.",
+    "materials.bblock.section2.paragraph3": "La exposición acumulativa a la luz azul puede suprimir la melatonina e interrumpir el ciclo natural de sueño, además de provocar fatiga visual, dolores de cabeza, visión borrosa y daño macular, la principal causa de ceguera.",
+
     "labs.title": "Laboratorios Opticos",
     "labs.hero_image_alt": "",
     "labs.section1.title": "10 años de tecnología Free Form",

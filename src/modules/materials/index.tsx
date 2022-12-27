@@ -1,4 +1,4 @@
 import Materiales from "./Materiales/Materiales";
-import NuestrosMateriales from "./NuestrosMateriales/NuestrosMateriales";
+import NuestrosMateriales from "./Materiales/NuestrosMateriales/NuestrosMateriales";
 
 export { Materiales, NuestrosMateriales };

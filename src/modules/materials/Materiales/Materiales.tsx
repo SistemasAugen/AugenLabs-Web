@@ -26,6 +26,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={parasol}
+            alt="imagen parasol materiales"
           />
         </Grid>
         <Typography className={classes.paragraph} marginTop={12} data-os="fade-in" paragraph>
@@ -44,6 +45,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={trivex}
+            alt="imagen trivex materiales"
           />
         </Grid>
         <Typography className={[classes.paragraph, classes.centered].join(" ")} marginTop={12} data-os="fade-in" paragraph>
@@ -62,13 +64,14 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={trivex_bblock}
+            alt="imagen bblock materiales"
           />
         </Grid>
         <Typography className={[classes.paragraph, classes.centered].join(" ")} marginTop={12} data-os="fade-in" paragraph>
           {TRANSLATIONS[locale]["materials.section2.paragraph3"]}
         </Typography>
         <div className={classes.underlineButtom}>
-          <Link>
+          <Link href="/materials/bblock">
             <u className={[classes.link, classes.underlineButtom].join(" ")}>
               {TRANSLATIONS[locale]["materials.buttom"]}
             </u>
@@ -80,6 +83,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={trivex_parasol}
+            alt="imagen trivex parasol materiales"
           />
         </Grid>
         <Typography className={classes.paragraph} marginTop={12} data-os="fade-in" paragraph>
@@ -98,6 +102,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={trivex_160}
+            alt="imagen trivex 160 materiales"
           />
         </Grid>
         <Typography className={[classes.paragraph, classes.centered].join(" ")} marginTop={12} data-os="fade-in" paragraph>
@@ -116,6 +121,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={polarizado}
+            alt="imagen polarizaado materiales"
           />
         </Grid>
         <Grid>
@@ -136,6 +142,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={alto_indice}
+            alt="imagen alto indice materiales"
           />
         </Grid>
         <Typography className={classes.paragraph} marginTop={12} data-os="fade-in" paragraph>
@@ -154,6 +161,7 @@ const Materiales = () => {
           <Image
             data-aos="fade-in"
             src={cr39}
+            alt="imagen cr39 materiales"
           />
         </Grid>
         <Typography className={[classes.paragraph, classes.centered].join(" ")} marginTop={12} data-os="fade-in" paragraph>

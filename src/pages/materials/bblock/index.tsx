@@ -1,25 +1,25 @@
 import type { NextPage } from "next";
-
 import { Layout } from '@components/index';
-import Parasol from '@modules/materials/Parasol/Parasol';
-import Transforma from '@modules/materials/Parasol/Transforma/Transforma';
+import Bblock from '@modules/materials/Bblock/Bblock';
+import NuevaTecnologia from '@modules/materials/Bblock/NuevaTecnologia/NuevaTecnologia';
 import { Container } from '@mui/material';
 import React from 'react';
 import useStyles from './index.styles';
 
-const Parasol_Material: NextPage = () => {
+const Bblock_Material: NextPage = () => {
   const classes = useStyles({});
 
   return (
     <Layout>
-      <div className={classes.parasol_background}>
-        <Parasol />
+      <div className={classes.bblock_background}>
+        <Bblock />
       </div>
       <Container>
-        <Transforma />
+        <NuevaTecnologia />
       </Container>
     </Layout>
   )
 }
 
-export default Parasol_Material
+
+export default Bblock_Material
