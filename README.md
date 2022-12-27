@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # AugenLabs-Web
-Website with new augenlabs design
-=======
-# augenopticos.com
+# Website with new augenlabs design
 
 ## Table of contents
 
@@ -52,4 +49,7 @@ Modify it with your own values.
 > docker run --name augenlabsdotcom -d -p 3000:3000 augen/augenlabsdotcom
 > docker run --name augenlabsdotcom --env-file .env -d -p 3000:3000 augen/augenlabsdotcom
 ```
->>>>>>> efe541dabb2833717b1e0795bccd701167a14ddc
+
+Most probably there is already a `augenopticosdotcom` container running, stop it with `docker stop augenopticosdotcom && docker rm augenopticosdotcom`. Then just create the container again.
+
+After all steps, we should have the new version in `143.198.131.61`
