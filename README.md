@@ -45,11 +45,12 @@ Modify it with your own values.
 ## Docker
 
 ```shell
+# build image
 > docker build . -t augen/augenlabsdotcom
-> docker run --name augenlabsdotcom -d -p 3000:3000 augen/augenlabsdotcom
-> docker run --name augenlabsdotcom --env-file .env -d -p 3000:3000 augen/augenlabsdotcom
+# create container with recently created image
+> docker run --name augenlabsdotcom -d -p 80:3000 augen/augenlabsdotcom
 ```
 
-Most probably there is already a `augenopticosdotcom` container running, stop it with `docker stop augenopticosdotcom && docker rm augenopticosdotcom`. Then just create the container again.
+Most probably there is already a `augenlabsdotcom` container running, stop it with `docker stop augenlabsdotcom && docker rm augenlabsdotcom`. Then just create the container again.
 
 After all steps, we should have the new version in `143.198.131.61`
