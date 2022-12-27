@@ -74,7 +74,6 @@ const AugenTec = () => {
           />
         </Grid>
       </Grid>
-
       <Hidden lgDown>
         <Grid container marginTop={6} marginBottom={8}>
           <Grid item xs={12} md={5}>
@@ -82,7 +81,6 @@ const AugenTec = () => {
           </Grid>
         </Grid>
       </Hidden>
-
       <Grid container>
         <Grid item marginTop={3} xs={12} md={2} paddingRight={1}>
           <Typography
@@ -117,7 +115,6 @@ const AugenTec = () => {
             {TRANSLATIONS[locale]["home.tec.section2.paragraph1"]}
           </Typography>
         </Grid>
-
         <Grid item xs={12} md={5}>
           <Image
             data-aos="fade-in"
@@ -126,7 +123,6 @@ const AugenTec = () => {
           />
         </Grid>
       </Grid>
-
       <Grid container>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
           <Link href="/tec">

@@ -1,3 +1,4 @@
+import React, { memo } from 'react';
 import Image from "next/image";
 import { Typography, Grid, Link, Box } from "@mui/material";
 import { useRouter } from "next/router";
