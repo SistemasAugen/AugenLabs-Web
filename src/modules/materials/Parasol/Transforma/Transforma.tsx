@@ -7,7 +7,7 @@ import TRANSLATIONS from "@constants/locales";
 import useStyles from "./Transforma.styles";
 import useGlobalStyles from "@styles/globals";
 
-const AboutAugen = () => {
+const Transforma = () => {
   const classes = useStyles({});
   const globalClasses = useGlobalStyles();
   const locale = useRouter().locale!;
@@ -82,4 +82,4 @@ const AboutAugen = () => {
   );
 };
 
-export default memo(AboutAugen);
+export default Transforma;
