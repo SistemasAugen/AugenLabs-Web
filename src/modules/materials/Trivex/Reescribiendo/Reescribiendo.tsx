@@ -97,4 +97,4 @@ const Reescribiendo = () => {
   );
 };
 
-export default memo(Reescribiendo);
+export default Reescribiendo;
