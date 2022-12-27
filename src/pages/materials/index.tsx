@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 import { Layout } from "@components";
 import { Materiales, NuestrosMateriales } from "@modules/materials";
 
-const AugenOpticos: NextPage = () => {
+const Materials: NextPage = () => {
   return (
     <Layout>
       <Container maxWidth="lg">
@@ -15,4 +15,4 @@ const AugenOpticos: NextPage = () => {
   );
 };
 
-export default AugenOpticos;
+export default Materials;
