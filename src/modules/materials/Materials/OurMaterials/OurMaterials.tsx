@@ -4,7 +4,7 @@ import { Typography, Grid, Link, Box } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./NuestrosMateriales.styles";
+import useStyles from "./OurMaterials.styles";
 import useGlobalStyles from "@styles/globals";
 
 import materials_home from "@images/Home_Materiales.jpg";

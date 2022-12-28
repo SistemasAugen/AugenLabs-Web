@@ -4,7 +4,7 @@ import { Typography, Grid, Box, Container } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./Reescribiendo.styles";
+import useStyles from "./Rewriting.styles";
 import useGlobalStyles from "@styles/globals";
 
 const Reescribiendo = () => {

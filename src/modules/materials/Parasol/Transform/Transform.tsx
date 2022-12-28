@@ -4,7 +4,7 @@ import { Typography, Grid, Box, Container } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./Transforma.styles";
+import useStyles from "./Transform.styles";
 import useGlobalStyles from "@styles/globals";
 
 const Transforma = () => {

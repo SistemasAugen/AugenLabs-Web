@@ -4,7 +4,7 @@ import { Typography, Grid, Link } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./Materiales.styles";
+import useStyles from "./Materials.styles";
 import parasol from "@images/Material_Parasol.png";
 import trivex from "@images/Material_Trivex.png";
 import trivex_bblock from "@images/Material_Trivex_BBlock.png";
