@@ -3,7 +3,7 @@ import { Layout } from '@components/index';
 import { Container } from '@mui/material';
 
 import Trivex from '@modules/materials/Trivex/Trivex';
-import Reescribiendo from '@modules/materials/Trivex/Rewriting/Rewriting';
+import Rewriting from '@modules/materials/Trivex/Rewriting/Rewriting';
 
 import useStyles from './index.styles';
 import { NextPage } from 'next';
@@ -17,7 +17,7 @@ const Trivex_Material: NextPage = () => {
         <Trivex />
       </div>
       <Container>
-        <Reescribiendo />
+        <Rewriting />
       </Container>
     </Layout>
   );

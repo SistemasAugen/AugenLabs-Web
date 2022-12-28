@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 import { Layout } from '@components/index';
 import Parasol from '@modules/materials/Parasol/Parasol';
-import Transforma from '@modules/materials/Parasol/Transform/Transform';
+import Transform from '@modules/materials/Parasol/Transform/Transform';
 import { Container } from '@mui/material';
 import React from 'react';
 import useStyles from './index.styles';
@@ -16,7 +16,7 @@ const Parasol_Material: NextPage = () => {
         <Parasol />
       </div>
       <Container>
-        <Transforma />
+        <Transform />
       </Container>
     </Layout>
   )

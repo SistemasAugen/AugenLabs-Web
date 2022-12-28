@@ -4,17 +4,17 @@ import type { NextPage } from "next";
 import { Container } from "@mui/material";
 
 import { Layout } from "@components";
-import { Materiales, NuestrosMateriales } from "@modules/materials";
+import { Materials, OurMaterials } from "@modules/materials";
 
-const Materials: NextPage = () => {
+const Materiales: NextPage = () => {
   return (
     <Layout>
       <Container maxWidth="lg">
-        <NuestrosMateriales />
-        <Materiales />
+        <OurMaterials />
+        <Materials />
       </Container>
     </Layout>
   );
 };
 
-export default Materials;
+export default Materiales;
