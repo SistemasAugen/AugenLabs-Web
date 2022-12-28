@@ -16,7 +16,7 @@ import cr39 from "@images/Material_CR39.png";
 
 import AddIcon from '@mui/icons-material/Add';
 
-const Materiales = () => {
+const Materials = () => {
   const classes = useStyles();
   const locale = useRouter().locale!;
 
@@ -92,7 +92,7 @@ const Materiales = () => {
             {TRANSLATIONS[locale]["materials.section2.paragraph4"]}
           </Typography>
           <div className={classes.underlineButtom}>
-            <Link>
+            <Link href="/materials/trivex-parasol">
               <u className={[classes.link, classes.underlineButtom].join(" ")}>
                 {TRANSLATIONS[locale]["materials.buttom"]}
               </u>
@@ -204,6 +204,6 @@ const Materiales = () => {
   );
 };
 
-Materiales.propTypes = {};
+Materials.propTypes = {};
 
-export default Materiales;
+export default Materials;

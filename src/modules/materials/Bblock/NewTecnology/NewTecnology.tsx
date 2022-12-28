@@ -3,7 +3,7 @@ import { Typography, Grid, Box, Container } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from "./NuevaTecnologia.styles";
+import useStyles from "./NewTecnology.styles";
 
 const NuevaTecnologia = () => {
   const classes = useStyles({});
