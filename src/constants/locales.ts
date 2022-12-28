@@ -72,7 +72,7 @@ const locales: Record<string, Record<string, string>> = {
 
     "materials.parasol.section1.title": "Lentes que cambian con el sol.",
     "materials.parasol.section1.paragraph1": "Augen Parasol es una lente desarrollada para las exigencias cotidianas de la vida cotidiana.",
-    "materials.parasol.section1.paragraph2": "Más de años de experiencia enfocados en solucionar problemas visuales nos permitieron crear una lente fotocromática capaz de protegerte de los nocivos rayos UV, la luz emitida por los dispositivos digitales y del deslumbramiento ocular.",
+    "materials.parasol.section1.paragraph2": "Más de 35 años de experiencia enfocados en solucionar problemas visuales nos permitieron crear una lente fotocromática capaz de protegerte de los nocivos rayos UV, la luz emitida por los dispositivos digitales y del deslumbramiento ocular.",
     "materials.parasol.section1.paragraph3": "Todo ello sin comprometer la calidad óptica de nuestro producto, preservando tu salud visual y la percepción natural del color.",
     "materials.parasol.section1.paragraph4": "Un lente para TODO en la vida.",
     "materials.parasol.section2.title": "Transforma la manera de usar lentes",
