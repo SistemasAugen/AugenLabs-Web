@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: "white",
   },
   image_container: {
-    width: "59vh",
+    width: "62vh",
     paddingLeft: theme.spacing(4),
     [theme.breakpoints.down("md")]: {
       paddingLeft: 3,
@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   image_logo: {
     width: "50%",
     height: "50%",
-  }
+  },
 }));
 
 export default useStyles;
