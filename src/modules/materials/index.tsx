@@ -10,6 +10,9 @@ import NewTecnology from "./Bblock/NewTecnology/NewTecnology";
 import Trivex from "./Trivex/Trivex";
 import Reescribiendo from "./Trivex/Rewriting/Rewriting";
 
+import Trivex160 from "./Trivex160/Trivex160";
+
+
 export {
   Materials,
   OurMaterials,
@@ -18,5 +21,6 @@ export {
   Trivex,
   Reescribiendo,
   Bblock,
-  NewTecnology
+  NewTecnology,
+  Trivex160,
 };

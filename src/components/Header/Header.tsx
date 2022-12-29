@@ -66,6 +66,11 @@ const Header = (props: IProps) => {
           onClick: () => { },
           href: "/materials/trivex-parasol",
         },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.trivex_160"],
+          onClick: () => { },
+          href: "/materials/trivex160",
+        },
       ]
     }
   ];
