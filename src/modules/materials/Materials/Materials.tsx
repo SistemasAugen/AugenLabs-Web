@@ -131,7 +131,7 @@ const Materials = () => {
               {TRANSLATIONS[locale]["materials.section2.paragraph6"]}
             </Typography>
             <div className={classes.underlineButtom}>
-              <Link>
+              <Link href="/materials/polarized">
                 <u className={[classes.link, classes.underlineButtom].join(" ")}>
                   {TRANSLATIONS[locale]["materials.buttom"]}
                 </u>
@@ -151,7 +151,7 @@ const Materials = () => {
             {TRANSLATIONS[locale]["materials.section2.paragraph7"]}
           </Typography>
           <div className={classes.underlineButtom}>
-            <Link>
+            <Link href="/materials/high-index156">
               <u className={[classes.link, classes.underlineButtom].join(" ")}>
                 {TRANSLATIONS[locale]["materials.buttom"]}
               </u>
