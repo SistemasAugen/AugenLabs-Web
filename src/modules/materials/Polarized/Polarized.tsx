@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import Image from "next/image";
 
 import TRANSLATIONS from "@constants/locales";
-import useStyles from './Polarizado.styles';
+import useStyles from './Polarized.styles';
 import useGlobalStyles from "@styles/globals";
 import polarized_glass from "@images/Polarizado_Vidrio.png";
 import polarized_logo from "@images/Polarizado_Logo.png";

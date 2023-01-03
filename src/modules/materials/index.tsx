@@ -8,9 +8,11 @@ import Bblock from "./Bblock/Bblock";
 import NewTecnology from "./Bblock/NewTecnology/NewTecnology";
 
 import Trivex from "./Trivex/Trivex";
-import Reescribiendo from "./Trivex/Rewriting/Rewriting";
+import Rewriting from "./Trivex/Rewriting/Rewriting";
 
 import Trivex160 from "./Trivex160/Trivex160";
+import HighIndex156 from './HighIndex156/HighIndex156';
+import Polarized from './Polarized/Polarized'
 
 
 export {
@@ -19,8 +21,10 @@ export {
   Parasol,
   Transform,
   Trivex,
-  Reescribiendo,
+  Rewriting,
   Bblock,
   NewTecnology,
   Trivex160,
+  Polarized,
+  HighIndex156
 };
