@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     padding: theme.spacing(2),
     paddingRight: theme.spacing(15),
   },
+  first_component: {
+    paddingLeft: theme.spacing(15),
+  },
   light_font: {
     fontWeight: 100,
   },

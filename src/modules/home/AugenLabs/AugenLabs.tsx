@@ -12,7 +12,7 @@ const AugenLabs = () => {
   return (
     <>
       <Container maxWidth="lg">
-        <Grid container className={classes.container}>
+        <Grid container className={[classes.container, classes.first_component].join(" ")}>
           <Grid item xs={12} sm={4}>
             <Box className={[classes.first_section_title_container, classes.section].join(" ")}>
               <Typography
