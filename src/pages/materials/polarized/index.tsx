@@ -5,7 +5,7 @@ import { Layout } from '@components/index';
 import Transform from '@modules/materials/Parasol/Transform/Transform';
 import { Container } from '@mui/material';
 import useStyles from './index.styles';
-import Polarizado from "@modules/materials/Polarizado/Polarizado";
+import Polarized from "@modules/materials/Polarized/Polarized";
 
 const Trivex_Parasol_Material: NextPage = () => {
   const classes = useStyles({});
@@ -13,7 +13,7 @@ const Trivex_Parasol_Material: NextPage = () => {
   return (
     <Layout>
       <div className={classes.trivex_parasol_background}>
-        <Polarizado />
+        <Polarized />
       </div>
       <Container>
         <Transform />
