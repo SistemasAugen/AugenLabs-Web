@@ -76,6 +76,11 @@ const Header = (props: IProps) => {
           onClick: () => { },
           href: "/materials/polarized",
         },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.high_index"],
+          onClick: () => { },
+          href: "/materials/high-index156",
+        },
       ]
     }
   ];
