@@ -71,6 +71,11 @@ const Header = (props: IProps) => {
           onClick: () => { },
           href: "/materials/trivex160",
         },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.polarized"],
+          onClick: () => { },
+          href: "/materials/polarized",
+        },
       ]
     }
   ];

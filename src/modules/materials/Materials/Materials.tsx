@@ -5,14 +5,14 @@ import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
 import useStyles from "./Materials.styles";
-import parasol from "@images/Material_Parasol.png";
-import trivex from "@images/Material_Trivex.png";
-import trivex_bblock from "@images/Material_Trivex_BBlock.png";
-import trivex_parasol from "@images/Material_Trivex_Parasol.png";
-import trivex_160 from "@images/Material_Trivex_160.png";
-import polarizado from "@images/Material_Polarizado.png";
-import alto_indice from "@images/Material_Alto_Indice_1.56.png";
-import cr39 from "@images/Material_CR39.png";
+import parasol from "@images/M_Parasol.png";
+import trivex from "@images/M_Trivex.png";
+import trivex_bblock from "@images/M_BBlock.png";
+import trivex_parasol from "@images/M_Trivex_Parasol.png";
+import trivex_160 from "@images/M_Trivex_160.png";
+import polarizado from "@images/M_Polarizado.png";
+import alto_indice from "@images/M_Alto_Indice.png";
+import cr39 from "@images/M_CR39.png";
 
 import AddIcon from '@mui/icons-material/Add';
 
@@ -23,7 +23,7 @@ const Materials = () => {
   return (
     <>
       <Grid container spacing={3}>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -42,7 +42,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -61,7 +61,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -80,7 +80,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -99,7 +99,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -118,12 +118,12 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
               src={polarizado}
-              alt="imagen polarizaado materiales"
+              alt="imagen polarizado materiales"
             />
           </Grid>
           <Grid>
@@ -139,7 +139,7 @@ const Materials = () => {
             </div>
           </Grid>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -158,7 +158,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -177,7 +177,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid item xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
           <div className={[classes.centered, classes.highGraduations].join(" ")}>
             <Grid display="flex" justifyContent="center">
               <AddIcon
