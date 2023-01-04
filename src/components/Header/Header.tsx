@@ -81,6 +81,11 @@ const Header = (props: IProps) => {
           onClick: () => { },
           href: "/materials/high-index156",
         },
+        {
+          name: TRANSLATIONS[locale]["header.link.materials.cr39"],
+          onClick: () => { },
+          href: "/materials/cr39",
+        },
       ]
     }
   ];

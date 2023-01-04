@@ -12,7 +12,8 @@ import Rewriting from "./Trivex/Rewriting/Rewriting";
 
 import Trivex160 from "./Trivex160/Trivex160";
 import HighIndex156 from './HighIndex156/HighIndex156';
-import Polarized from './Polarized/Polarized'
+import Polarized from './Polarized/Polarized';
+import Cr39 from './Cr39/Cr39';
 
 
 export {
@@ -26,5 +27,6 @@ export {
   NewTecnology,
   Trivex160,
   Polarized,
-  HighIndex156
+  HighIndex156,
+  Cr39
 };
