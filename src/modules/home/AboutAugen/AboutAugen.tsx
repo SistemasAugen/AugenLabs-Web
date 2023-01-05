@@ -15,7 +15,7 @@ const AboutAugen = () => {
 
   return (
     <>
-      <Grid container marginBottom={8} marginTop={4}>
+      <Grid container>
         <Grid item md={6} className={classes.first_section_left_container}>
           <Box className={classes.first_section_title_container}>
             <Typography

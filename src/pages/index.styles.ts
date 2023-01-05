@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: "relative",
     width: "100%",
     height: "90vh",
-    backgroundColor: "#1ce3e3",
     [theme.breakpoints.down("lg")]: {
       height: 400,
       objectFit: "top",
@@ -20,7 +19,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: "relative",
     width: "100%",
     height: "38vh",
-    backgroundColor: "#1ce3e3",
     [theme.breakpoints.down("lg")]: {
       height: 400,
       objectFit: "top",

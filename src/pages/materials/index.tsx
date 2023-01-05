@@ -9,10 +9,8 @@ import { Materials, OurMaterials } from "@modules/materials";
 const Materiales: NextPage = () => {
   return (
     <Layout>
-      <Container maxWidth="lg">
-        <OurMaterials />
-        <Materials />
-      </Container>
+      <OurMaterials />
+      <Materials />
     </Layout>
   );
 };

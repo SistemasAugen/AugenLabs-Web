@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     fontSize: 22,
   },
   first_section_title_container: {
+    marginLeft: 60,
     [theme.breakpoints.down("md")]: {
       marginTop: 0,
     },
@@ -29,7 +30,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     },
   },
   first_section_right_container: {
-
     [theme.breakpoints.down("md")]: {
       paddingLeft: 0,
     },

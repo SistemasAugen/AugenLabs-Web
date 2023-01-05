@@ -23,7 +23,7 @@ const Materials = () => {
   return (
     <>
       <Grid container spacing={3}>
-        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={2} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -42,7 +42,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={2} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -61,7 +61,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={2} marginBottom={4}>
           <Grid display="flex" justifyContent="flex-end">
             <Image
               data-aos="fade-in"
@@ -177,7 +177,7 @@ const Materials = () => {
             </Link>
           </div>
         </Grid>
-        <Grid xs={14} sm={4} marginTop={8} marginBottom={4}>
+        <Grid xs={14} sm={4} marginTop={16} marginBottom={4}>
           <div className={[classes.centered, classes.highGraduations].join(" ")}>
             <Grid display="flex" justifyContent="center">
               <AddIcon
