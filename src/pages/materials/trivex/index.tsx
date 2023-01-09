@@ -8,6 +8,9 @@ import Rewriting from '@modules/materials/Trivex/Rewriting/Rewriting';
 import useStyles from './index.styles';
 import { NextPage } from 'next';
 
+import caracteristicas_trivex from "@images/Caracteristicas_Trivex.png";
+import Material_C from '@modules/materials/MaterialCharacteristics/MaterialCharacteristics';
+
 const Trivex_Material: NextPage = () => {
   const classes = useStyles();
 
@@ -18,6 +21,12 @@ const Trivex_Material: NextPage = () => {
       </div>
       <Container>
         <Rewriting />
+      </Container>
+      <Container maxWidth="lg">
+        <Material_C
+          src={caracteristicas_trivex}
+          alt={'caracteristicas del material trivex'}
+        />
       </Container>
     </Layout>
   );

@@ -7,6 +7,8 @@ import { Container } from '@mui/material';
 import useStyles from './index.styles';
 import Polarized from "@modules/materials/Polarized/Polarized";
 import { HighIndex156 } from '@modules/materials';
+import Material_C from '@modules/materials/MaterialCharacteristics/MaterialCharacteristics';
+import caracteristicas_alto_indice from "@images/Caracteristicas_AltoIndice156.png";
 
 const HighIndex_Parasol_Material: NextPage = () => {
   const classes = useStyles({});
@@ -18,6 +20,12 @@ const HighIndex_Parasol_Material: NextPage = () => {
       </div>
       <Container>
         <Transform />
+      </Container>
+      <Container maxWidth="lg">
+        <Material_C
+          src={caracteristicas_alto_indice}
+          alt={'caracteristicas del material alto indice'}
+        />
       </Container>
     </Layout>
   )

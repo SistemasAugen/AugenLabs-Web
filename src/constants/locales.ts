@@ -54,7 +54,7 @@ const locales: Record<string, Record<string, string>> = {
     "home.materials.title": "Nuestros materiales",
     "home.materials.paragraph1": "Augen Labs te ofrece una variedad de diseños de lentes de alta calidad que satisfacen las necesidades de visión de sus clientes, así como una gama de materiales de la mejor calidad óptica, asegurando a sus pacientes un mayor confort y satisfacción.",
 
-    "materials.title": "Augen Ópticos",
+    "materials.title": "Materiales",
     "materials.hero1_image_alt": "",
     "materials.hero2_image_alt": "",
     "materials.section1.title": "Nuestros materiales",
@@ -69,6 +69,8 @@ const locales: Record<string, Record<string, string>> = {
     "materials.section2.paragraph8": "El material óptico más resistente del planeta",
     "materials.section2.paragraph9": "La insuperable solución al problema de la luz azul",
     "materials.buttom": "¡Conócelas ahora!",
+    "materials.characteristics": "Caracteristicas del material",
+
 
     "materials.parasol.section1.title": "Lentes que cambian con el sol.",
     "materials.parasol.section1.paragraph1": "Augen Parasol es una lente desarrollada para las exigencias cotidianas de la vida cotidiana.",

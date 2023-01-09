@@ -6,6 +6,8 @@ import Transform from '@modules/materials/Parasol/Transform/Transform';
 import { Container } from '@mui/material';
 import useStyles from './index.styles';
 import Cr39 from '@modules/materials/Cr39/Cr39';
+import caracteristicas_cr39 from "@images/Caracteristicas_CR39.png";
+import Material_C from '@modules/materials/MaterialCharacteristics/MaterialCharacteristics';
 
 const Cr39_Material: NextPage = () => {
   const classes = useStyles({});
@@ -17,6 +19,12 @@ const Cr39_Material: NextPage = () => {
       </div>
       <Container>
         <Transform />
+      </Container>
+      <Container maxWidth="lg">
+        <Material_C
+          src={caracteristicas_cr39}
+          alt={'caracteristicas del material cr39'}
+        />
       </Container>
     </Layout>
   );
