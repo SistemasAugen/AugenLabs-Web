@@ -41,10 +41,8 @@ const Home: NextPage = () => {
           alt={TRANSLATIONS[locale]["home.hero.image_alt"]}
         />
       </div>
-      <Container maxWidth="lg" className={classes.content}>
-        <ToastContainer />
-        <AboutAugen />
-      </Container>
+      {/* <ToastContainer /> */}
+      <AboutAugen />
       <div className={classes.hero_container_2}>
         <Image
           src={homeLab}
