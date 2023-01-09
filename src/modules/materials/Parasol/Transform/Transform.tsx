@@ -1,15 +1,11 @@
-import { memo } from "react";
-import Image from "next/image";
 import { Typography, Grid, Box, Container } from "@mui/material";
 import { useRouter } from "next/router";
 
 import TRANSLATIONS from "@constants/locales";
 import useStyles from "./Transform.styles";
-import useGlobalStyles from "@styles/globals";
 
 const Transforma = () => {
   const classes = useStyles({});
-  const globalClasses = useGlobalStyles();
   const locale = useRouter().locale!;
 
   return (
