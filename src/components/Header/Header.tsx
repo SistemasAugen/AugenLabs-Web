@@ -178,6 +178,9 @@ const Header = (props: IProps) => {
                       {TRANSLATIONS[locale]["header.menu-dialog.menu"]}
                     </Typography>
                   </Box>
+                  {menu.map((item, index) =>
+                    <MenuButton key={index} menu={item} />
+                  )}
                   {menuDialogLinks.map((menuLink, menuLinkIndex) => (
                     <li
                       key={`menuLink-${menuLinkIndex}`}
