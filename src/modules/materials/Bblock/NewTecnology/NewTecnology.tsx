@@ -1,4 +1,3 @@
-import { memo } from "react";
 import { Typography, Grid, Box, Container } from "@mui/material";
 import { useRouter } from "next/router";
 
