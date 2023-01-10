@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     fontSize: 12,
     padding: "0px 14px",
     cursor: "pointer",
-    position: "relative", 
+    position: "relative",
     textDecoration: "none",
     // animation
     '&:before': {
@@ -130,6 +130,13 @@ const useStyles = makeStyles((theme: Theme) => ({
     textDecoration: "none",
     color: "black",
     fontSize: 20,
+  },
+  menu_link_materials: {
+    textTransform: "uppercase",
+    textAlign: "center",
+    textDecoration: "none",
+    color: "black",
+    fontSize: "12px",
   },
   menu_contact_link: {
     textTransform: "uppercase",
