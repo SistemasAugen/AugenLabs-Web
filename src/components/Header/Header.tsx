@@ -192,17 +192,12 @@ const Header = (props: IProps) => {
                     </li>
                   ))}
                   <Box component="li" marginTop={2}>
-                    <Link href="/">
-                      <a className={classes.menu_contact_link}>
-                        <Image
-                          src={contactImage}
-                          height={20}
-                          width={30}
-                          alt="email icon"
-                        />
+                    <Button onClick={() => setIsOpen(true)}>
+                      <Typography width={156} height={34} className={[classes.link, classes.contact_link, classes.menu_link].join(" ")}>
                         {TRANSLATIONS[locale]["general.contact"]}
-                      </a>
-                    </Link>
+                      </Typography>
+                    </Button>
+                    {isOpen && <ContactForm setIsOpen={setIsOpen} />}
                   </Box>
                   <Box
                     className={classes.language_section}
