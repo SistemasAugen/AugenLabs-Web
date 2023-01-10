@@ -7,6 +7,7 @@ import React from 'react';
 import useStyles from './index.styles';
 import Material_C from "@modules/materials/MaterialCharacteristics/MaterialCharacteristics";
 import caracteristicas_bblock from "@images/Caracteristicas_BBlock.png";
+import LearnMore from "@modules/materials/LearnMore/LearnMore";
 
 const Bblock_Material: NextPage = () => {
   const classes = useStyles({});
@@ -16,14 +17,13 @@ const Bblock_Material: NextPage = () => {
       <div className={classes.bblock_background}>
         <Bblock />
       </div>
-      <Container>
-        <NewTecnology />
-      </Container>
       <Container maxWidth="lg">
+        <NewTecnology />
         <Material_C
           src={caracteristicas_bblock}
           alt={'caracteristicas del material cr39'}
         />
+        <LearnMore color={"#326BB2"} />
       </Container>
     </Layout>
   )

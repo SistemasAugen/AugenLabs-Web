@@ -8,6 +8,7 @@ import useStyles from './index.styles';
 import Cr39 from '@modules/materials/Cr39/Cr39';
 import caracteristicas_cr39 from "@images/Caracteristicas_CR39.png";
 import Material_C from '@modules/materials/MaterialCharacteristics/MaterialCharacteristics';
+import LearnMore from '@modules/materials/LearnMore/LearnMore';
 
 const Cr39_Material: NextPage = () => {
   const classes = useStyles({});
@@ -17,14 +18,13 @@ const Cr39_Material: NextPage = () => {
       <div className={classes.cr39_background}>
         <Cr39 />
       </div>
-      <Container>
-        <Transform />
-      </Container>
       <Container maxWidth="lg">
+        <Transform />
         <Material_C
           src={caracteristicas_cr39}
           alt={'caracteristicas del material cr39'}
         />
+        <LearnMore color={"#0191CB"} />
       </Container>
     </Layout>
   );

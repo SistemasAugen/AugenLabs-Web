@@ -10,6 +10,7 @@ import { NextPage } from 'next';
 
 import caracteristicas_trivex from "@images/Caracteristicas_Trivex.png";
 import Material_C from '@modules/materials/MaterialCharacteristics/MaterialCharacteristics';
+import LearnMore from '@modules/materials/LearnMore/LearnMore';
 
 const Trivex_Material: NextPage = () => {
   const classes = useStyles();
@@ -19,14 +20,13 @@ const Trivex_Material: NextPage = () => {
       <div className={classes.trivex_background}>
         <Trivex />
       </div>
-      <Container>
-        <Rewriting />
-      </Container>
       <Container maxWidth="lg">
+        <Rewriting />
         <Material_C
           src={caracteristicas_trivex}
           alt={'caracteristicas del material trivex'}
         />
+        <LearnMore color={"#04908D"} />
       </Container>
     </Layout>
   );

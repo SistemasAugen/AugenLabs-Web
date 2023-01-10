@@ -8,6 +8,7 @@ import React from 'react';
 import useStyles from './index.styles';
 import caracteristicas_parasol from "@images/Caracteristicas_Parasol.png";
 import Material_C from "@modules/materials/MaterialCharacteristics/MaterialCharacteristics";
+import LearnMore from "@modules/materials/LearnMore/LearnMore";
 
 const Parasol_Material: NextPage = () => {
   const classes = useStyles({});
@@ -17,14 +18,13 @@ const Parasol_Material: NextPage = () => {
       <div className={classes.parasol_background}>
         <Parasol />
       </div>
-      <Container>
-        <Transform />
-      </Container>
       <Container maxWidth="lg">
+        <Transform />
         <Material_C
           src={caracteristicas_parasol}
           alt={'caracteristicas del material parasol'}
         />
+        <LearnMore color={"#EC6927"} />
       </Container>
     </Layout>
   )
