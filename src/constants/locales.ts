@@ -70,7 +70,7 @@ const locales: Record<string, Record<string, string>> = {
     "materials.section2.paragraph9": "La insuperable solución al problema de la luz azul",
     "materials.buttom": "¡Conócelas ahora!",
     "materials.characteristics": "Caracteristicas del material",
-
+    "materials.learn": "Conoce más",
 
     "materials.parasol.section1.title": "Lentes que cambian con el sol.",
     "materials.parasol.section1.paragraph1": "Augen Parasol es una lente desarrollada para las exigencias cotidianas de la vida cotidiana.",
